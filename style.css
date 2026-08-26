@@ -1,0 +1,55 @@
+/* .rotate {
+    background-color: lightblue;
+    width: 350px;
+    height: 200px;
+    border: dashed 4px rgb(217, 120, 217);
+    margin: auto;
+    margin-top: 200px;
+    transition: all 3s linear;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+} */
+
+/* .animate {
+    background-color: rgb(110, 204, 136);
+    width: 350px;
+    height: 200px;
+    border: dashed 4px rgb(135, 201, 228);
+    margin: auto;
+    margin-top: 200px;
+    animation: colorChange 0.8s infinite;
+}
+
+
+@keyframes colorChange {
+
+    from {
+        background-color: orangered;
+        border-radius: 10px;
+    }
+
+    to {
+        background-color: yellow;
+        border-radius: 50px;
+        border: solid 5px orange;
+    }
+
+} */
+
+
+.typing {
+    font-size: 50px;
+    animation: mytyping 0.8s infinite;
+}
+
+@keyframes mytyping {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
